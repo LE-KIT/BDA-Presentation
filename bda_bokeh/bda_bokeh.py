@@ -71,7 +71,7 @@ def preprocessing(df):
 def print_hi():
     return "hi!"
 
-def import_data(dataPath="./pres_data/stromfluss"):
+def import_data(dataPath="./data/stromfluss"):
     import_files = os.listdir(dataPath)
     dateparse = lambda x: pd.datetime.strptime(x, '%d.%m.%Y')
 

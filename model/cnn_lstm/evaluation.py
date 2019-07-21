@@ -11,7 +11,7 @@ def plot_and_calculate_error(df_predictions,df_true_test_values,cols):
         plt.figure(figsize=[20,10])
         plt.plot(df_predictions['Tag'],df_predictions[col])
         plt.plot(df_true_test_values['Tag'],df_true_test_values[col])
-        plt.title("Time Series Prediction Country {} for June ".format(col))
+        plt.title("Time Series Prediction Country {} for May ".format(col))
         plt.legend(['Prediction','True Data'])
         plt.show()
         

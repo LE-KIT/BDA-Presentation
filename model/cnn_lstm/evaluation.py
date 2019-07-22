@@ -38,7 +38,7 @@ def calculate_prediction_errors(df_predictions,df_true_eval_values,cols):
 
         rse_scaled = np.sqrt( ((y-y_hat)**2).sum() ) * error_scale.values
         rmse_scaled = np.sqrt( ((y-y_hat)**2).mean() ) * error_scale.values
-        print('{} Scaled RSE: {}'.format(model_prefix.split('_')[0] , rse_scaled.sum()))
-        print('{} Scaled RMSE: {}'.format(model_prefix.split('_')[0], rmse_scaled.mean()))
+        print('{} Scaled RMSE: {}'.format(model_prefix.split('_')[0], rmse_scaled.sum()))
+        print("--------------------------\n")
 
 

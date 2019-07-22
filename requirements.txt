@@ -6,4 +6,7 @@ fbprophet
 matplotlib
 seaborn
 bokeh
-
+keras
+pydot
+graphviz
+jupyter

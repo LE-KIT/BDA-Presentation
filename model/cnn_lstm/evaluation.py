@@ -9,7 +9,7 @@ def plot_predictions(df_predictions,df_true_test_values,cols):
     
     for col in cols:
         
-        fig = plt.figure(figsize=[20,10])
+        fig = plt.figure(figsize=[20,15])
         fig.suptitle("Time Series Prediction Country {} for May ".format(col), fontsize=16)
 
         plt.subplot(311)
@@ -42,4 +42,3 @@ def calculate_prediction_errors(df_predictions,df_true_eval_values,cols):
         print('{} Scaled RMSE: {}'.format(model_prefix.split('_')[0], rmse_scaled.mean()))
 
 
-    

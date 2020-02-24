@@ -4,7 +4,7 @@ absl-py==0.7.0
 appnope==0.1.0
 astor==0.7.1
 backcall==0.1.0
-bleach==1.5.0
+bleach==3.1.1
 bokeh==1.0.4
 cloudpickle==0.8.0
 convertdate==2.1.3
